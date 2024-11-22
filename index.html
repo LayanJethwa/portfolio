@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layan Jethwa - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <div id="navbar-div">
+        <a id="spotify" href="https://open.spotify.com/artist/2Bqgl0h9npfGQvjGFLXoxl" target="_blank"><img src="nav_icons/spotify.png"></a>
+        <ul id="navbar">
+            <li><a href="#home-rect">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#next">Portfolio</a></li>
+        </ul>
+        <a id="github" href="https://github.com/LayanJethwa/" target="_blank"><img src="nav_icons/github.png"></a>
+        <a id="email" href="mailto:lrsjethwa3.14@gmail.com" target="_blank"><img src="nav_icons/email.png"></a>
+        <a id="logo" href="#logo-rect"><img src="logo/Layan Jethwa.png"></a>
+    </div>
+</header>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <section id="home">
+        <div id="home-rect">
+            <h1 id="hello">Hi, I'm Layan!</h1>
+            <p id="welcome">Welcome to my portfolio!</p>
+            <ul id="activities">
+                <li> Mathematician</li>
+                <li>Coder</li>
+                <li>Musician</li>
+                <li>Linguist</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="about">
+
+        <div id="about-me">
+            <h2 id="about-me-text">About Me</h2>
+            <p id="text">Hello, I'm Layan! I am a passionate coder and mathematician, and I really enjoy learning new things.</p>
+            <p id="text">You can find all of my coding projects on GitHub (linked in the navbar), and there is a showcase of my portfolio further down.</p>
+            <p id="text">I am also a musician! I play the violin and piano, and also produce electronic music. My Spotify profile is linked in the navbar.</p>
+            <p id="text">Thanks for reading! You can contact me at my email address in the navbar.</p>
+        </div>
+
+        <div id="achievements">
+            <h2 id="achievement-text">My Achievements</h2>
+            <p id="text">Here are a few of my achievements! </p>
+            <ul id="ul-text">
+                <li>6th in the UK in OUCC 2024 (Seniors)</li>
+                <li>Top 8 in the country in UKLO 2024, gold award in R1 2021 and 2022</li>
+                <li>Gold award in SMC 2024</li>
+                <li>Grade 7 violin with distinction (ABRSM)</li>
+                <li>Grade 7 piano with distinction (ABRSM)</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="portfolio">
+        <div class="carousel">
+
+            <div class="project">
+                <h2 id="project-title">Coming soon..</h2>
+                <img src="portfolio_screenshots/coming-soon.jpg">
+                <p id="project-text">
+                Coming soon!
+                </p>
+            </div>
+
+            <div class="project">
+                <h2 id="project-title">Scansion</h2>
+                <img src="portfolio_screenshots/scansion.png">
+                <p id="project-text">
+                This is a program I made to calculate the metrical structure of Homer's Iliad.
+                </p>
+                <ul id="project-links">
+                    <li><a id="project-link" href="https://github.com/LayanJethwa/scansion" target="_blank">Github link</a></li>
+                    <li><a id="project-link" href="https://layanjethwa.github.io/scansion/" target="_blank">Demo link</a></li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h2 id="project-title">My Portfolio</h2>
+                <img src="portfolio_screenshots/portfolio.png">
+                <p id="project-text">
+                Welcome to the portfolio! I coded this using only HTML, CSS and JS.
+                </p>
+                <ul id="project-links">
+                    <li><a id="project-link" href="">Github link</a></li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h2 id="project-title">FTFs</h2>
+                <img src="portfolio_screenshots/ftfs.png">
+                <p id="project-text">
+                This is a project I made to map geocaching FTFs (First To Finds) in my region.
+                </p>
+                <ul id="project-links">
+                    <li><a id="project-link" href="https://github.com/LayanJethwa/ftfs" target="_blank">Github link</a></li>
+                    <li><a id="project-link" href="https://layanjethwa.github.io/ftfs/" target="_blank">Demo link</a></li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h2 id="project-title">Coming soon..</h2>
+                <img src="portfolio_screenshots/coming-soon.jpg">
+                <p id="project-text">
+                Coming soon!
+                </p>
+            </div>
+
+            <button id="next">></button>
+            <button id="prev"><</button>
+
+        </div>
+    </section>
+
+    <div id="logo-rect">
+        <img id="logo-big" src="logo/Layan Jethwa.png">
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
