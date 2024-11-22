@@ -117,7 +117,7 @@ header {
     background:#323639;
     border: 2px solid gold;
     border-radius: 20px;
-    box-shadow: 0px 0px max(8px, calc(var(--home-glow) * 1px)) rgb(252, 225, 72);
+    box-shadow: 0px 0px max(8px, calc(var(--home-glow) * 1px)) rgba(252, 225, 72, 0.863);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -163,7 +163,7 @@ header {
     margin-inline: auto; 
     width: fit-content;
     float: left;
-    margin-top: 35%;
+    margin-top: 70%;
     width: 30vw;
     height: 38vw;
     align-items: start;
@@ -186,7 +186,7 @@ header {
     margin-inline: auto;
     width: fit-content;
     float: right;
-    margin-top: 35%;
+    margin-top: 70%;
     width: 30vw;
     height: 38vw;
     align-items: start;
@@ -231,7 +231,7 @@ header {
     position: absolute;
     width: 80vw;
     height: 60vw;
-    margin-top: 90%;
+    margin-top: 165%;
     display: flex;
     justify-content: center;
     justify-self: center;
@@ -317,7 +317,7 @@ header {
     justify-content: center;
     width: 25vw;
     height: 40vw;
-    margin-top: 280%;
+    margin-top: 530%;
 
     #logo-big {
         margin-top: 30%;
